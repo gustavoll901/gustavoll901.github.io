@@ -74,7 +74,7 @@ Similiarly as the images I had been provided with were in a variety of different
 
 ## Deployment
 
-The website has been deployed to Github pages and can be found at: <https://cianhub.github.io/the-Basic State-website/>
+The website has been deployed to Github pages and can be found at: <https://gustavoll901.github.io/#band>
 
 ## Installation
 
@@ -83,13 +83,12 @@ The website has been deployed to Github pages and can be found at: <https://cian
 
 ## Credits
 
-### Content
-
-- The text for 'Band' section was copied from the [Wikipedia article - Basic State](https://en.wikipedia.org/wiki/The_Basic State)
+Gustavo A. Larez Lopez
+Basic State
 
 ### Media
 
-- The media files used in this website were provided by the Code Institute
+- The media files used in this website were provided by Basic State
 
 ### Acknowledgements
 
