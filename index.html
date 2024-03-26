@@ -196,9 +196,6 @@
                             </div>
                             <div class="booking-container text-center">
                                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#bookingModal">Book Now</button>
-                                <li>
-                                    <a href="https://www.ticketweb.uk/event/basic-state-clwb-ifor-bach-tickets/13470923?pl=clwb" target="_blank">
-                                </li>
                             </div>
                         </div>
                     </div>
@@ -427,6 +424,49 @@
                 <!-- /.social -->
             </div>
         </footer>
+    </div>
+    <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <!-- Modal -->
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Book Basic State!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="event">Event Type*</label>
+                            <select class="form-control" id="event" required>
+                                        <option disabled value="" selected hidden>Select an event type</option>
+                                        <option>Wedding</option>
+                                        <option>Private Function</option>
+                                        <option>Christmas Party</option>
+                                        <option>Corporate Event</option>
+                                        <option>Funeral</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date*</label>
+                            <input type="date" class="form-control" id="date" required>
+                            <p class="help-block">* Required</p>
+                        </div>
+                        <div class="text-center">
+                            <input class="btn btn-success" type="submit" name="btnADD" id="btnADD" value="Submit Booking" onclick="disableButton(this)"/>
+                        </div> <br>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Bootstrap JS -->
