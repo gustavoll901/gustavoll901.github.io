@@ -52,7 +52,7 @@ a:hover {
 /* base code from whiskey drop module, altered to fit project*/
 
 .callout-container {
-    height: 100vh;
+    height: auto;
     background-image: url("../images/basicStateGroupPhoto.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -60,6 +60,8 @@ a:hover {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
     background-attachment: fixed;
     align-items: center;
     width: 100%;
@@ -131,7 +133,6 @@ a:hover {
 
 /*............................................................  Logo */
 
-/* alterations to the bootstrap class img-responsive*/
 
 .img-logo {
     margin: 0 auto;
@@ -143,7 +144,6 @@ a:hover {
 
 /*............................................................  Navbar Section */
 
-/* alterations made to Bootstraps navbar class for project specific navbar set up*/
 
 .navbar {
     margin-bottom: 0;
@@ -407,6 +407,8 @@ body table {
     background-color: #31b0d5;
     color: white;
 }
+
+
 
 /* ........................................................ Booking Modal */
 
